@@ -10,7 +10,7 @@
 			table {border-collapse: collapse;}
 			.logo { text-align: center; width: 100%;}
             .blank {width: 150px}
-
+			a { color: #000;}
             @media (max-width: 640px)  {
 							body[yahoo] .deviceWidth {width:440px!important; padding:0;}
                             body[yahoo] .deviceWidth2 {width:442px!important; padding:0;}
@@ -38,7 +38,7 @@
 								<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="deviceWidth">
 									<tr>
 	                                    <td style="padding:30px 10px 10px; text-align:center;" class="logo">
-	                                        <a href="http://www.villa-finder.com" target="_blank"><img src="http://www.villa-finder.com/email-template/media/logo_finder.png" alt="" border="0" width="310" /></a>
+	                                        <a href="http://www.villa-finder.com" target="_blank"><img src="http://www.villa-finder.com/email-template/media/logo_bali.png" alt="" border="0" width="310" /></a>
                                         </td>
                                     </tr>
                                 </table>
@@ -61,16 +61,21 @@
 							<td style="border-left: 1px solid #333; border-right:1px solid #333; font-size: 13px; color: #333; font-weight: normal; text-align: left; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 24px; vertical-align: top; padding:10px 8px 10px 8px" bgcolor="#fff">
 								<table>
 									<tr>
-										<td valign="middle" style="padding:10px; font-size: 16px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;">{{ query.dear }}</td>
+										<td valign="middle" style="padding:10px; font-size: 16px; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif;">Dear Mark Balloon,</td>
 									</tr>
 									<tr>
-										<td style="font-size: 12px; color: #000; font-weight: normal; text-align: left; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 24px; vertical-align: top; padding:10px 8px 10px 8px">{{ query.body|raw }}</td>
+										<td style="font-size: 12px; color: #000; font-weight: normal; text-align: left; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 24px; vertical-align: top; padding:10px 8px 10px 8px">Greetings from Villa-Bali.com in Singapore!</td>
 									</tr>
 									<tr>
-										<td style="font-size: 12px; color: #000; font-weight: normal; text-align: left; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 24px; vertical-align: top; padding:10px 8px 10px 8px">{{ query.wishes|raw }}</td>
+										<td style="font-size: 12px; color: #000; font-weight: normal; text-align: left; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 24px; vertical-align: top; padding:10px 8px 10px 8px">
+											We are glad to inform you that we have a request for <a href="#">Villa Salju</a> (10 bedrooms configuration, 2 guests) from <b>Mr/Mrs Adrien Eudes from 22/08/2014 to 24/08/2014</b>. The total price is: $ 5000 (all taxes and service charges included). Request number: #13761-11.<br/>
+											The villa is available on Villa-Bali.com but please send us a final confirmation (availability and price). As usual, please hold the villa for the period 22/08/2014 - 24/08/2014 until we get the deposit payment from the client.
+											<br/><br/>
+											Best regards,
+										</td>
 									</tr>
 									<tr>
-										<td style="font-size: 12px; color: #000; font-weight: normal; text-align: right; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 24px; vertical-align: top; padding:10px 60px 10px 8px;">{{ query.signature }}</td>
+										<td style="font-size: 12px; color: #000; font-weight: normal; text-align: right; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 24px; vertical-align: top; padding:10px 60px 10px 8px;">The Villa-Bali.com team</td>
 									</tr>
 								</table>
 							</td>
